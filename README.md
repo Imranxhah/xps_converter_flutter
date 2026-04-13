@@ -1,16 +1,23 @@
-# xps_converter
+<h1 align="center">XPS Converter App 📱</h1>
+<p align="center">
+  <img src="https://img.shields.io/badge/Framework-Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
+</p>
 
-A new Flutter project.
+## 📖 Overview
+A native, cross-platform mobile interface developed in **Flutter** designed to securely connect to the XPS Converter API infrastructure. It allows users to browse their device storage, select `.xps` documents, and seamlessly convert & fetch the target format directly onto their phone.
 
-## Getting Started
+## ✨ Highlights
+- **Native File Picking**: Safely accesses internal device storage paths using platform channels.
+- **Real-Time Transfer Feedbacks**: Visual progress notifications while documents are being uploaded and processed by the cloud logic.
+- **Polished UI**: Clean material components with user-centric error handling.
 
-This project is a starting point for a Flutter application.
+## 🛠️ Usage
+```bash
+git clone https://github.com/Imranxhah/xps_converter_flutter.git
+cd xps_converter_flutter
+flutter pub get
+flutter run
+```
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+*Created by [Imranxhah](https://github.com/Imranxhah)*
